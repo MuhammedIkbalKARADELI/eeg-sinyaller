@@ -43,7 +43,7 @@ df = pd.DataFrame(index=index, columns = columns)
 
 
 
-for j in range(1000):
+for j in range(2000):
     df["label"][j] = 0
     for i in range(250):
         yazi = "signal"+str(i)
